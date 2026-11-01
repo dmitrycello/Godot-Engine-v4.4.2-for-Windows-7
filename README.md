@@ -10,7 +10,7 @@ if (specialization->id == 0) {
 }
 /* END PATCH */
 ```
-P.S. It is absolutely possible that the developers have fixed the issue by the time being. They are still showing some activity in 4.4 branch, but I was unable to report the issue through [their project page](https://github.com/godotengine/godot/tree/4.4), probably because it was not allowed.
+_P.S. It is absolutely possible that the developers have fixed the issue by the time being. They are still showing some activity in 4.4 branch, but I was unable to report the issue through [their project page](https://github.com/godotengine/godot/tree/4.4), probably because it was not allowed._
 
 The patched file is included in the repository, and can be used in your custom builds. If you find it difficult to compile from Godot 4.4 source, feel free to download all executables under Releases section containing 6 archives with ready-to-run application, as well as the source code used in the process.
 
