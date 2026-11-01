@@ -10,4 +10,4 @@ if (specialization->id == 0) {
 }
 /* END PATCH */
 ```
-The patched file is included in the repository, and can be used in your custom build. If you find it difficult to compile from Godot 4.4 source, please feel free to download from this repository the executables compiled with **MinGW**. Enjoy!
+The patched file is included in the repository, and can be used in your custom builds. If you find it difficult to compile from Godot 4.4 source, feel free to download the executables compiled with **MinGW** under Releases section. Enjoy!
