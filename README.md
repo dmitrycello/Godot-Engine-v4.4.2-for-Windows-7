@@ -10,4 +10,4 @@ if (specialization->id == 0) {
 }
 /* END PATCH */
 ```
-If you find it difficult to compile from Godot 4.4 source, please feel free to download it using this repository.
+If you find it difficult to compile from Godot 4.4 source, please feel free to download the executables using this repository.
