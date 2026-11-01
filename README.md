@@ -10,11 +10,11 @@ if (specialization->id == 0) {
 }
 /* END PATCH */
 ```
-The patched file is included in the repository, and can be used in your custom builds. If you find it difficult to compile from Godot 4.4 source, feel free to download all executables under Releases section. This section contains 6 archives with ready-to-run application, as well as the source code used in the process. The compiler versions used for x86 and x64 builds are:
-```
-MinGW-W64 i686-msvcrt-posix-dwarf, built by Brecht Sanders, r3 16.2.0
-MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r2 16.2.0
-```
+The patched file is included in the repository, and can be used in your custom builds. If you find it difficult to compile from Godot 4.4 source, feel free to download all executables under Releases section containing 6 archives with ready-to-run application, as well as the source code used in the process. The compiler versions used for x86 and x64 builds are:
+
+```MinGW-W64 i686-msvcrt-posix-dwarf, built by Brecht Sanders, r3 16.2.0```
+```MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r2 16.2.0```
+
 Commands used for x64 builds:
 ```
 set MINGW_PREFIX=C:\mingw64
