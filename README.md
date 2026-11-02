@@ -20,11 +20,9 @@ The patched file is included in the repository for reference. If you find it dif
 
 ### Commands used for x64 builds:
 ```
-set MINGW_PREFIX=C:\mingw64
-set Path=%Path%;C:\mingw64\bin
-scons platform=windows target=editor arch=x86_64 production=yes target_win_version=0x0601 use_mingw=yes
-scons platform=windows target=template_debug arch=x86_64 production=yes target_win_version=0x0601 use_mingw=yes
-scons platform=windows target=template_release arch=x86_64 production=yes target_win_version=0x0601 use_mingw=yes
+scons platform=windows target=editor arch=x86_64 production=yes d3d12=no engine_update_check=no target_win_version=0x0601 use_mingw=yes mingw_prefix=C:\mingw64
+scons platform=windows target=template_debug arch=x86_64 production=yes d3d12=no engine_update_check=no target_win_version=0x0601 use_mingw=yes mingw_prefix=C:\mingw64
+scons platform=windows target=template_release arch=x86_64 production=yes d3d12=no engine_update_check=no target_win_version=0x0601 use_mingw=yes mingw_prefix=C:\mingw64
 ```
 ### Compiler version used for x86 builds:
 
@@ -32,10 +30,8 @@ scons platform=windows target=template_release arch=x86_64 production=yes target
 
 ### Commands used for x86 builds:
 ```
-set MINGW_PREFIX=C:\mingw32
-set Path=%Path%;C:\mingw32\bin
-scons platform=windows target=editor arch=x86_32 production=yes target_win_version=0x0601 use_mingw=yes
-scons platform=windows target=template_debug arch=x86_32 production=yes target_win_version=0x0601 use_mingw=yes
-scons platform=windows target=template_release arch=x86_32 production=yes target_win_version=0x0601 use_mingw=yes
+scons platform=windows target=editor arch=x86_32 production=yes d3d12=no engine_update_check=no target_win_version=0x0601 use_mingw=yes mingw_prefix=C:\mingw32
+scons platform=windows target=template_debug arch=x86_32 production=yes d3d12=no engine_update_check=no target_win_version=0x0601 use_mingw=yes mingw_prefix=C:\mingw32
+scons platform=windows target=template_release arch=x86_32 production=yes d3d12=no engine_update_check=no target_win_version=0x0601 use_mingw=yes mingw_prefix=C:\mingw32
 ```
 Enjoy!
