@@ -14,7 +14,7 @@ _P.S. It is absolutely possible that the developers have fixed the issue by the 
 
 The patched file is included in the repository for reference. If you find it difficult to compile from Godot 4.4 source, feel free to download all executables under Releases section, which contains six archives with ready-to-run application, as well as the source code used in the process.
 
-### Compiler version used for x64 builds:
+### Compiler used for x64 builds:
 ```
 MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r2 16.2.0
 ```
@@ -24,7 +24,7 @@ scons platform=windows target=editor arch=x86_64 production=yes d3d12=no engine_
 scons platform=windows target=template_debug arch=x86_64 production=yes d3d12=no engine_update_check=no target_win_version=0x0601 use_mingw=yes mingw_prefix=C:\mingw64
 scons platform=windows target=template_release arch=x86_64 production=yes d3d12=no engine_update_check=no target_win_version=0x0601 use_mingw=yes mingw_prefix=C:\mingw64
 ```
-### Compiler version used for x86 builds:
+### Compiler used for x86 builds:
 ```
 MinGW-W64 i686-msvcrt-posix-dwarf, built by Brecht Sanders, r3 16.2.0
 ```
